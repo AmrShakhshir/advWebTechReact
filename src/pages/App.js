@@ -75,6 +75,8 @@ export default class App extends React.Component{
         this.setState({
           "result": response.data,
         });
+
+        console.log(response);
         console.log(response.data.login);
     }).catch((error)=>{
         console.log( error.response.request);
