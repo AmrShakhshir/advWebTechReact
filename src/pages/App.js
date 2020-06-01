@@ -65,7 +65,7 @@ export default class App extends React.Component{
   submit = () => {
     
     axios ({
-      url: 'https://backend-part-ude-advwebtech.herokuapp.com/login',
+      url: 'https://flaskbackend-ude.herokuapp.com/login',
       method: 'POST',
       data:{
         "email": this.state.email,
